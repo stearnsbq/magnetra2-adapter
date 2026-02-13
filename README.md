@@ -3,27 +3,27 @@ Magnetra2 uses an i2c protocol over a TRRS 3.5mm jack. The controllers each have
 
 ## Controller Channel Mappings Below:
 
-CH0 - Joystick Y
+CH0 - Joystick Y (128 = centered)
 
-CH1 - Joystick X
+CH1 - Joystick X (128 = centered)
 
-CH2 - Analog Trigger
+CH2 - Analog Trigger (68/67 = centered)
 
-CH3 - B Button
+CH3 - B Button (0 = pressed, 255 = unpressed)
 
 CH4 - Ladder value:
 
-    1 = Joystick Press
+    1 = Joystick Press 
 
     128/127~ = D PAD Up / trackpad up
 
     170 = Steam Menu
 
-CH5 - D PAD Down / trackpad Down
+CH5 - D PAD Down / trackpad Down (0 = pressed, 255 = unpressed)
 
-CH6 - A Button
+CH6 - A Button (0 = pressed, 255 = unpressed)
 
-CH7 - Right Trigger Press
+CH7 - Right Trigger Press (0 = pressed, 255 = unpressed)
 
 Datasheet: 
 https://www.ti.com/lit/ds/symlink/ads7830.pdf?ts=1770950272024&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7830
